@@ -1,15 +1,11 @@
 class IPFSGatewayTester {
     constructor() {
         this.gateways = [
-            'https://ipfs.io',
-            'https://cloudflare-ipfs.com',
-            'https://gateway.ipfs.io',
             'https://gateway.pinata.cloud',
             'https://ipfs.trivium.network',
             'https://xnyiaslj9tfyt1m0-ipfs.ensusercontent.com',
             'https://ipfs-internal.xnftdata.com',
             'https://ipfs.funil.de',
-            'https://ipfs.marsnft.cn',
             'https://ipfs.backend.prop.house',
             'https://d39z2iu8gx3qxr.cloudfront.net',
             'https://ipfs.allgram.best',
@@ -19,8 +15,6 @@ class IPFSGatewayTester {
             'https://gateway.ipfs.dxos.network',
             'https://ipfs.wax.bountyblok.io',
             'https://ipfs.hotdao.ai',
-            'https://gw-seattle.crustcloud.io',
-            'https://gw.crustgw.work',
             // 添加更多网关
         ];
 
