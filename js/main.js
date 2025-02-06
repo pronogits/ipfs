@@ -9,7 +9,7 @@ class IPFSGatewayTester {
             // 添加更多网关
         ];
 
-        this.testCID = 'QmQ2r6iMNpky5f1m4cnm3Yqw8VSvjuKpTcK1X7dBR1LkJF'; // 用于测试的小文件CID
+        this.testCID = 'bafybeieztd2i26injd7at3tmo4yhuqrwhhl45ozzkxu4v4tanumfnxditu'; // 用于测试的小文件CID
         this.results = [];
         this.initializeElements();
         this.attachEventListeners();
