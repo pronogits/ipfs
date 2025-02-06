@@ -118,7 +118,8 @@ class IPFSGatewayTester {
             return;
         }
 
-        const url = `${gateway}/ipfs/${cid}${filename ? '/' + filename : ''}`;
+        // 修正后的 URL 构建方式
+        const url = `${gateway}/ipfs/${cid}${filename ? '?filename=' + encodeURIComponent(filename) : ''}`;
         window.open(url, '_blank');
     }
 
