@@ -1,0 +1,21 @@
+.gateway-speed {
+    font-weight: bold;
+}
+
+.status-success {
+    color: #198754;
+}
+
+.status-error {
+    color: #dc3545;
+}
+
+.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.spinner-border {
+    width: 1rem;
+    height: 1rem;
+}
